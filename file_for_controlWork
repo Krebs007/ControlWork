@@ -38,4 +38,17 @@ outputArray[index] = str;
 index++;
 }
 }
+return outputArray;
+}
+
+static void PrintArray(string[] array)
+{
+Console.Write("[ ");
+foreach (string str in array)
+{
+Console.Write("\"" + str + "\" ");
+}
+Console.Write("]");
+}
+}
 
