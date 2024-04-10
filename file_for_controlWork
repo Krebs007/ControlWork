@@ -4,3 +4,17 @@ static void Main()
 {
 string[] inputArray = new string[] { "hello", "2", "world", ":-)" };
 string[] outputArray = FilterArray(inputArray);
+Console.WriteLine("Исходный массив:");
+PrintArray(inputArray);
+
+Console.WriteLine("\nНовый массив:");
+PrintArray(outputArray);
+
+Console.ReadLine();
+}
+
+static string[] FilterArray(string[] inputArray)
+{
+int count = 0;
+
+// Подсчитываем количество строк, длина которых меньше или равна 3 символам
