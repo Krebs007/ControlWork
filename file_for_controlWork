@@ -1,0 +1,6 @@
+class Program
+{
+static void Main()
+{
+string[] inputArray = new string[] { "hello", "2", "world", ":-)" };
+string[] outputArray = FilterArray(inputArray);
